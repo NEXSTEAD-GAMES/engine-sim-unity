@@ -1,0 +1,1372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c90ff29cda340b69747ffdde48c887, type: 3}
+  m_Name: v8-big-block-muscle
+  m_EditorClassIdentifier: Nexstead.EngineBench::Nexstead.EngineBench.EngineAsset
+  description:
+    format: engine-sim-reference/engine
+    version: 2
+    functions:
+    - filterRadius: 0.00127
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 0.00127
+      - 0.00254
+      - 0.00381
+      - 0.00508
+      - 0.006350000000000001
+      - 0.00762
+      - 0.00889
+      - 0.01016
+      - 0.011430000000000001
+      - 0.012700000000000001
+      - 0.01397
+      - 0.01524
+      - 0.01651
+      - 0.01778
+      y:
+      - 0
+      - 0.0006871670569843968
+      - 0.0020615011709531903
+      - 0.0027486682279375873
+      - 0.0035732686963188634
+      - 0.004947602810287657
+      - 0.005222469633081416
+      - 0.006047070101462691
+      - 0.006596803747050209
+      - 0.006871670569843968
+      - 0.007146537392637727
+      - 0.007146537392637727
+      - 0.007146537392637727
+      - 0.007009103981240847
+      - 0.006871670569843968
+    - filterRadius: 0.00127
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 0.00127
+      - 0.00254
+      - 0.00381
+      - 0.00508
+      - 0.006350000000000001
+      - 0.00762
+      - 0.00889
+      - 0.01016
+      - 0.011430000000000001
+      - 0.012700000000000001
+      - 0.01397
+      - 0.01524
+      - 0.01651
+      - 0.01778
+      y:
+      - 0
+      - 0.0006871670569843968
+      - 0.0013743341139687937
+      - 0.0020615011709531903
+      - 0.0027486682279375873
+      - 0.003435835284921984
+      - 0.004397869164700139
+      - 0.004810169398890778
+      - 0.004947602810287657
+      - 0.005222469633081416
+      - 0.005497336455875175
+      - 0.005634769867272053
+      - 0.0057722032786689335
+      - 0.0057722032786689335
+      - 0.0057722032786689335
+    - filterRadius: 0.012403578214121368
+      inputScale: 1
+      outputScale: 1
+      x:
+      - -1.2279542431980155
+      - -1.215550664983894
+      - -1.2031470867697727
+      - -1.1907435085556513
+      - -1.17833993034153
+      - -1.1659363521274086
+      - -1.1535327739132872
+      - -1.1411291956991658
+      - -1.1287256174850446
+      - -1.1163220392709232
+      - -1.1039184610568018
+      - -1.0915148828426804
+      - -1.079111304628559
+      - -1.0667077264144378
+      - -1.0543041482003164
+      - -1.041900569986195
+      - -1.0294969917720735
+      - -1.0170934135579521
+      - -1.004689835343831
+      - -0.9922862571297095
+      - -0.9798826789155881
+      - -0.9674791007014667
+      - -0.9550755224873454
+      - -0.942671944273224
+      - -0.9302683660591027
+      - -0.9178647878449813
+      - -0.9054612096308599
+      - -0.8930576314167386
+      - -0.8806540532026171
+      - -0.8682504749884958
+      - -0.8558468967743744
+      - -0.843443318560253
+      - -0.8310397403461317
+      - -0.8186361621320103
+      - -0.806232583917889
+      - -0.7938290057037676
+      - -0.7814254274896462
+      - -0.7690218492755249
+      - -0.7566182710614034
+      - -0.7442146928472821
+      - -0.7318111146331607
+      - -0.7194075364190393
+      - -0.707003958204918
+      - -0.6946003799907966
+      - -0.6821968017766753
+      - -0.6697932235625539
+      - -0.6573896453484325
+      - -0.6449860671343112
+      - -0.6325824889201898
+      - -0.6201789107060685
+      - -0.607775332491947
+      - -0.5953717542778256
+      - -0.5829681760637043
+      - -0.5705645978495829
+      - -0.5581610196354616
+      - -0.5457574414213402
+      - -0.5333538632072189
+      - -0.5209502849930975
+      - -0.5085467067789761
+      - -0.49614312856485476
+      - -0.48373955035073335
+      - -0.471335972136612
+      - -0.45893239392249063
+      - -0.4465288157083693
+      - -0.4341252374942479
+      - -0.4217216592801265
+      - -0.40931808106600515
+      - -0.3969145028518838
+      - -0.38451092463776243
+      - -0.37210734642364107
+      - -0.35970376820951966
+      - -0.3473001899953983
+      - -0.33489661178127694
+      - -0.3224930335671556
+      - -0.3100894553530342
+      - -0.2976858771389128
+      - -0.28528229892479146
+      - -0.2728787207106701
+      - -0.26047514249654874
+      - -0.24807156428242738
+      - -0.235667986068306
+      - -0.22326440785418464
+      - -0.21086082964006325
+      - -0.1984572514259419
+      - -0.18605367321182054
+      - -0.17365009499769915
+      - -0.1612465167835778
+      - -0.1488429385694564
+      - -0.13643936035533505
+      - -0.12403578214121369
+      - -0.11163220392709232
+      - -0.09922862571297095
+      - -0.08682504749884958
+      - -0.0744214692847282
+      - -0.062017891070606845
+      - -0.049614312856485474
+      - -0.0372107346423641
+      - -0.024807156428242737
+      - -0.012403578214121368
+      - 0
+      - 0.012403578214121368
+      - 0.024807156428242737
+      - 0.0372107346423641
+      - 0.049614312856485474
+      - 0.062017891070606845
+      - 0.0744214692847282
+      - 0.08682504749884958
+      - 0.09922862571297095
+      - 0.11163220392709232
+      - 0.12403578214121369
+      - 0.13643936035533505
+      - 0.1488429385694564
+      - 0.1612465167835778
+      - 0.17365009499769915
+      - 0.18605367321182054
+      - 0.1984572514259419
+      - 0.21086082964006325
+      - 0.22326440785418464
+      - 0.235667986068306
+      - 0.24807156428242738
+      - 0.26047514249654874
+      - 0.2728787207106701
+      - 0.28528229892479146
+      - 0.2976858771389128
+      - 0.3100894553530342
+      - 0.3224930335671556
+      - 0.33489661178127694
+      - 0.3473001899953983
+      - 0.35970376820951966
+      - 0.37210734642364107
+      - 0.38451092463776243
+      - 0.3969145028518838
+      - 0.40931808106600515
+      - 0.4217216592801265
+      - 0.4341252374942479
+      - 0.4465288157083693
+      - 0.45893239392249063
+      - 0.471335972136612
+      - 0.48373955035073335
+      - 0.49614312856485476
+      - 0.5085467067789761
+      - 0.5209502849930975
+      - 0.5333538632072189
+      - 0.5457574414213402
+      - 0.5581610196354616
+      - 0.5705645978495829
+      - 0.5829681760637043
+      - 0.5953717542778256
+      - 0.607775332491947
+      - 0.6201789107060685
+      - 0.6325824889201898
+      - 0.6449860671343112
+      - 0.6573896453484325
+      - 0.6697932235625539
+      - 0.6821968017766753
+      - 0.6946003799907966
+      - 0.707003958204918
+      - 0.7194075364190393
+      - 0.7318111146331607
+      - 0.7442146928472821
+      - 0.7566182710614034
+      - 0.7690218492755249
+      - 0.7814254274896462
+      - 0.7938290057037676
+      - 0.806232583917889
+      - 0.8186361621320103
+      - 0.8310397403461317
+      - 0.843443318560253
+      - 0.8558468967743744
+      - 0.8682504749884958
+      - 0.8806540532026171
+      - 0.8930576314167386
+      - 0.9054612096308599
+      - 0.9178647878449813
+      - 0.9302683660591027
+      - 0.942671944273224
+      - 0.9550755224873454
+      - 0.9674791007014667
+      - 0.9798826789155881
+      - 0.9922862571297095
+      - 1.004689835343831
+      - 1.0170934135579521
+      - 1.0294969917720735
+      - 1.041900569986195
+      - 1.0543041482003164
+      - 1.0667077264144378
+      - 1.079111304628559
+      - 1.0915148828426804
+      - 1.1039184610568018
+      - 1.1163220392709232
+      - 1.1287256174850446
+      - 1.1411291956991658
+      - 1.1535327739132872
+      - 1.1659363521274086
+      - 1.17833993034153
+      - 1.1907435085556513
+      - 1.2031470867697727
+      - 1.215550664983894
+      - 1.2279542431980155
+      y:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0.000031212336382355556
+      - 0.00008826371794374722
+      - 0.00016209539245048353
+      - 0.0002494427825490993
+      - 0.00034839242966694243
+      - 0.0004576293573795499
+      - 0.0005761663297968379
+      - 0.0007032181676358086
+      - 0.00083813422679677
+      - 0.0009803584371612059
+      - 0.0011294039529482667
+      - 0.0012848362081503259
+      - 0.0014462611176414173
+      - 0.0016133165876592924
+      - 0.0017856662416190039
+      - 0.001962994678982722
+      - 0.0021450038251920726
+      - 0.0023314100769451975
+      - 0.0025219420394121117
+      - 0.0027163387120708636
+      - 0.0029143480200316627
+      - 0.0031157256152345007
+      - 0.003320233891151302
+      - 0.003527641168337902
+      - 0.0037377210181204724
+      - 0.0039502516990148305
+      - 0.004165015685933869
+      - 0.004381799276361563
+      - 0.004600392260823409
+      - 0.004820587647417809
+      - 0.005042181432072362
+      - 0.005264972407684084
+      - 0.005488762006489909
+      - 0.0057133541709635085
+      - 0.005938555249300234
+      - 0.006164173912173355
+      - 0.006390021087952294
+      - 0.006615909913990778
+      - 0.006841655701937506
+      - 0.007067075915308391
+      - 0.007291990157798806
+      - 0.0075162201710149545
+      - 0.007739589840472868
+      - 0.007961925208856944
+      - 0.00818305449565176
+      - 0.008402808122365218
+      - 0.008621018742650111
+      - 0.00883752127670817
+      - 0.00905215294942686
+      - 0.00926475333175668
+      - 0.009475164384886709
+      - 0.00968323050681966
+      - 0.009888798580985939
+      - 0.010091718026569593
+      - 0.010291840850248613
+      - 0.010489021699078083
+      - 0.010683117914267758
+      - 0.01087398958562619
+      - 0.011061499606461845
+      - 0.011245513728748014
+      - 0.01142590061837299
+      - 0.01160253191031027
+      - 0.011775282263555417
+      - 0.011944029415687028
+      - 0.012108654236919121
+      - 0.012269040783521184
+      - 0.012425076350490278
+      - 0.01257665152336717
+      - 0.012723660229095319
+      - 0.012865999785827949
+      - 0.013003570951594398
+      - 0.013136277971742346
+      - 0.013264028625077768
+      - 0.013386734268629187
+      - 0.013504309880967338
+      - 0.01361667410401566
+      - 0.013723749283290978
+      - 0.013825461506517644
+      - 0.013921740640561979
+      - 0.014012520366637374
+      - 0.01409773821373375
+      - 0.01417733559022822
+      - 0.014251257813636939
+      - 0.01431945413847111
+      - 0.01438187778216297
+      - 0.014438485949030393
+      - 0.014489239852251576
+      - 0.01453410473382379
+      - 0.014573049882482977
+      - 0.014606048649563375
+      - 0.014633078462779071
+      - 0.014654120837911684
+      - 0.014669161388390998
+      - 0.01467818983275772
+      - 0.0146812
+      - 0.01467818983275772
+      - 0.014669161388390998
+      - 0.014654120837911684
+      - 0.014633078462779071
+      - 0.014606048649563375
+      - 0.014573049882482977
+      - 0.01453410473382379
+      - 0.014489239852251576
+      - 0.014438485949030393
+      - 0.01438187778216297
+      - 0.01431945413847111
+      - 0.014251257813636939
+      - 0.01417733559022822
+      - 0.01409773821373375
+      - 0.014012520366637374
+      - 0.013921740640561979
+      - 0.013825461506517644
+      - 0.013723749283290978
+      - 0.01361667410401566
+      - 0.013504309880967338
+      - 0.013386734268629187
+      - 0.013264028625077768
+      - 0.013136277971742346
+      - 0.013003570951594398
+      - 0.012865999785827949
+      - 0.012723660229095319
+      - 0.01257665152336717
+      - 0.012425076350490278
+      - 0.012269040783521184
+      - 0.012108654236919121
+      - 0.011944029415687028
+      - 0.011775282263555417
+      - 0.01160253191031027
+      - 0.01142590061837299
+      - 0.011245513728748014
+      - 0.011061499606461845
+      - 0.01087398958562619
+      - 0.010683117914267758
+      - 0.010489021699078083
+      - 0.010291840850248613
+      - 0.010091718026569593
+      - 0.009888798580985939
+      - 0.00968323050681966
+      - 0.009475164384886709
+      - 0.00926475333175668
+      - 0.00905215294942686
+      - 0.00883752127670817
+      - 0.008621018742650111
+      - 0.008402808122365218
+      - 0.00818305449565176
+      - 0.007961925208856944
+      - 0.007739589840472868
+      - 0.0075162201710149545
+      - 0.007291990157798806
+      - 0.007067075915308391
+      - 0.006841655701937506
+      - 0.006615909913990778
+      - 0.006390021087952294
+      - 0.006164173912173355
+      - 0.005938555249300234
+      - 0.0057133541709635085
+      - 0.005488762006489909
+      - 0.005264972407684084
+      - 0.005042181432072362
+      - 0.004820587647417809
+      - 0.004600392260823409
+      - 0.004381799276361563
+      - 0.004165015685933869
+      - 0.0039502516990148305
+      - 0.0037377210181204724
+      - 0.003527641168337902
+      - 0.003320233891151302
+      - 0.0031157256152345007
+      - 0.0029143480200316627
+      - 0.0027163387120708636
+      - 0.0025219420394121117
+      - 0.0023314100769451975
+      - 0.0021450038251920726
+      - 0.001962994678982722
+      - 0.0017856662416190039
+      - 0.0016133165876592924
+      - 0.0014462611176414173
+      - 0.0012848362081503259
+      - 0.0011294039529482667
+      - 0.0009803584371612059
+      - 0.00083813422679677
+      - 0.0007032181676358086
+      - 0.0005761663297968379
+      - 0.0004576293573795499
+      - 0.00034839242966694243
+      - 0.0002494427825490993
+      - 0.00016209539245048353
+      - 0.00008826371794374722
+      - 0.000031212336382355556
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - filterRadius: 0.00127
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 0.00127
+      - 0.00254
+      - 0.00381
+      - 0.00508
+      - 0.006350000000000001
+      - 0.00762
+      - 0.00889
+      - 0.01016
+      - 0.011430000000000001
+      - 0.012700000000000001
+      - 0.01397
+      - 0.01524
+      - 0.01651
+      - 0.01778
+      y:
+      - 0
+      - 0.0006871670569843968
+      - 0.0020615011709531903
+      - 0.0027486682279375873
+      - 0.0035732686963188634
+      - 0.004947602810287657
+      - 0.005222469633081416
+      - 0.006047070101462691
+      - 0.006596803747050209
+      - 0.006871670569843968
+      - 0.007146537392637727
+      - 0.007146537392637727
+      - 0.007146537392637727
+      - 0.007009103981240847
+      - 0.006871670569843968
+    - filterRadius: 0.00127
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 0.00127
+      - 0.00254
+      - 0.00381
+      - 0.00508
+      - 0.006350000000000001
+      - 0.00762
+      - 0.00889
+      - 0.01016
+      - 0.011430000000000001
+      - 0.012700000000000001
+      - 0.01397
+      - 0.01524
+      - 0.01651
+      - 0.01778
+      y:
+      - 0
+      - 0.0006871670569843968
+      - 0.0013743341139687937
+      - 0.0020615011709531903
+      - 0.0027486682279375873
+      - 0.003435835284921984
+      - 0.004397869164700139
+      - 0.004810169398890778
+      - 0.004947602810287657
+      - 0.005222469633081416
+      - 0.005497336455875175
+      - 0.005634769867272053
+      - 0.0057722032786689335
+      - 0.0057722032786689335
+      - 0.0057722032786689335
+    - filterRadius: 104.71975499999999
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 104.71975499999999
+      - 209.43950999999998
+      - 314.159265
+      - 418.87901999999997
+      - 523.5987749999999
+      - 628.31853
+      y:
+      - 0.20943951023933333
+      - 0.20943951023933333
+      - 0.3490658503988889
+      - 0.5235987755983333
+      - 0.6632251157578889
+      - 0.6632251157578889
+      - 0.6632251157578889
+    - filterRadius: 5
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 5
+      - 10
+      - 15
+      - 20
+      - 25
+      - 30
+      - 35
+      - 40
+      - 45
+      y:
+      - 3
+      - 7.5
+      - 15
+      - 22.5
+      - 30
+      - 37.5
+      - 45
+      - 52.5
+      - 60
+      - 67.5
+    - filterRadius: 1
+      inputScale: 1
+      outputScale: 1
+      x:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      y:
+      - 0
+      - 0.5
+      - 1
+      - 1.5
+      - 2
+      - 2.5
+      - 3
+      - 3.5
+      - 4
+      - 4.5
+      - 5
+      - 5.5
+      - 6
+      - 6.5
+      - 7
+      - 7.5
+      - 8
+      - 8.5
+      - 9
+      - 9.5
+      - 10
+      - 10.5
+      - 11
+      - 11.5
+      - 12
+      - 12.5
+      - 13
+      - 13.5
+      - 14
+      - 14.5
+    impulseResponses:
+    - file: es/sound-library/smooth/smooth_39.wav
+      volume: 0.001
+    - file: es/sound-library/smooth/smooth_39.wav
+      volume: 0.001
+    engine:
+      name: "V8 454 ci Big-Block \xB7 '70s Muscle"
+      starterTorque: 271.1634912
+      starterSpeed: 20.943951
+      redline: 575.9586525
+      dynoMinSpeed: 104.71975499999999
+      dynoMaxSpeed: 575.9586525
+      dynoHoldStep: 10.4719755
+      simulationFrequency: 10000
+      highFrequencyGain: 0.01
+      noise: 1
+      jitter: 0.5
+      throttle:
+        type: directLinkage
+        gamma: 1.5
+        minSpeed: 0
+        maxSpeed: 0
+        minVelocity: 0
+        maxVelocity: 0
+        k_s: 0
+        k_d: 0
+      crankshafts:
+      - mass: 34.01942775
+        flywheelMass: 26.30835746
+        momentOfInertia: 0.4597368955372733
+        throw: 0.050800000000000005
+        positionX: 0
+        positionY: 0
+        tdc: 0.7853981633975
+        frictionTorque: 13.558174560000001
+        rodJournalAngles:
+        - 0
+        - -1.570796326795
+        - -4.7123889803850005
+        - 3.14159265359
+      cylinderBanks:
+      - angle: -0.7853981633975
+        bore: 0.10795
+        deckHeight: 0.24892000000000003
+        positionX: 0
+        positionY: 0
+        displayDepth: 0.5
+        cylinderCount: 4
+      - angle: 0.7853981633975
+        bore: 0.10795
+        deckHeight: 0.24892000000000003
+        positionX: 0
+        positionY: 0
+        displayDepth: 0.5
+        cylinderCount: 4
+      cylinderHeads:
+      - combustionChamberVolume: 0.00011800000000000002
+        intakeRunnerVolume: 0.00018900000000000004
+        intakeRunnerCrossSectionArea: 0.00378
+        exhaustRunnerVolume: 0.00030000000000000003
+        exhaustRunnerCrossSectionArea: 0.0014643846145918652
+        flipDisplay: 0
+        intakePortFlow: 0
+        exhaustPortFlow: 1
+        valvetrain:
+          type: standard
+          intakeCamshaft:
+            advance: 0.06981317007977778
+            baseRadius: 0.025400000000000002
+            reductionRatio: 0.5
+            lobeProfile: 2
+            lobeCenterlines:
+            - 8.203047484373888
+            - 12.915436464758889
+            - 16.057029118348886
+            - 17.62782544514389
+          exhaustCamshaft:
+            advance: 0.06981317007977778
+            baseRadius: 0.025400000000000002
+            reductionRatio: 0.5
+            lobeProfile: 2
+            lobeCenterlines:
+            - 4.363323129986111
+            - 9.07571211037111
+            - 12.21730476396111
+            - 13.788101090756111
+          minRpm: 0
+          minSpeed: 0
+          manifoldVacuum: 0
+          minThrottlePosition: 0
+          highLiftIntakeCamshaft:
+            advance: 0
+            baseRadius: 0
+            reductionRatio: 0
+            lobeProfile: 0
+            lobeCenterlines: []
+          highLiftExhaustCamshaft:
+            advance: 0
+            baseRadius: 0
+            reductionRatio: 0
+            lobeProfile: 0
+            lobeCenterlines: []
+        cylinders:
+        - intake: 0
+          exhaustSystem: 0
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 0
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 0
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 0
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+      - combustionChamberVolume: 0.00011800000000000002
+        intakeRunnerVolume: 0.00018900000000000004
+        intakeRunnerCrossSectionArea: 0.00378
+        exhaustRunnerVolume: 0.00030000000000000003
+        exhaustRunnerCrossSectionArea: 0.0014643846145918652
+        flipDisplay: 1
+        intakePortFlow: 3
+        exhaustPortFlow: 4
+        valvetrain:
+          type: standard
+          intakeCamshaft:
+            advance: 0.06981317007977778
+            baseRadius: 0.025400000000000002
+            reductionRatio: 0.5
+            lobeProfile: 2
+            lobeCenterlines:
+            - 19.19862177193889
+            - 11.34464013796389
+            - 14.486232791553888
+            - 9.773843811168888
+          exhaustCamshaft:
+            advance: 0.06981317007977778
+            baseRadius: 0.025400000000000002
+            reductionRatio: 0.5
+            lobeProfile: 2
+            lobeCenterlines:
+            - 15.358897417551113
+            - 7.504915783576111
+            - 10.646508437166112
+            - 5.9341194567811115
+          minRpm: 0
+          minSpeed: 0
+          manifoldVacuum: 0
+          minThrottlePosition: 0
+          highLiftIntakeCamshaft:
+            advance: 0
+            baseRadius: 0
+            reductionRatio: 0
+            lobeProfile: 0
+            lobeCenterlines: []
+          highLiftExhaustCamshaft:
+            advance: 0
+            baseRadius: 0
+            reductionRatio: 0
+            lobeProfile: 0
+            lobeCenterlines: []
+        cylinders:
+        - intake: 0
+          exhaustSystem: 1
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 1
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 1
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+        - intake: 0
+          exhaustSystem: 1
+          soundAttenuation: 1
+          headerPrimaryLength: 0
+      pistons:
+      - blowby: 0.000005497336455875175
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.00001649200936762552
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.00001649200936762552
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.00001099467291175035
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.000005497336455875175
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.000005497336455875175
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.00001649200936762552
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      - blowby: 0.00001649200936762552
+        compressionHeight: 0.041656
+        wristPinPosition: 0
+        displacement: 0
+        mass: 0.88
+      connectingRods:
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 0
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 1
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 2
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 3
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 0
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 1
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 2
+      - mass: 0.785
+        momentOfInertia: 0.0015884918028487504
+        centerOfMass: 0
+        length: 0.15582900000000002
+        crankshaft: 0
+        journal: 3
+      intakes:
+      - plenumVolume: 0.0020000000000000005
+        plenumCrossSectionArea: 0.01
+        inputFlowK: 0.03025809985421091
+        idleFlowK: 0.00000022295441997839617
+        runnerFlowRate: 0.009555189427645551
+        molecularAfr: 12.5
+        idleThrottlePlatePosition: 0.995
+        runnerLength: 0.1524
+        velocityDecay: 1
+        atmospherePressure: 101325
+        atmosphereTemperature: 298.15
+      exhaustSystems:
+      - length: 6.167266379343297
+        collectorCrossSectionArea: 0.008107319665560499
+        outletFlowRate: 0.017517847284016844
+        primaryTubeLength: 0.254
+        primaryFlowRate: 0.002866556828293665
+        velocityDecay: 1
+        audioVolume: 1
+        impulseResponse: 0
+      - length: 6.167266379343297
+        collectorCrossSectionArea: 0.008107319665560499
+        outletFlowRate: 0.017517847284016844
+        primaryTubeLength: 0.254
+        primaryFlowRate: 0.002866556828293665
+        velocityDecay: 1
+        audioVolume: 0.1
+        impulseResponse: 1
+      forcedInduction:
+        type: 
+        arrangement: 
+        compressorDiameter: 0
+        compressorFlow: 0
+        compressorEfficiency: 0
+        maxSpeed: 0
+        turbineAr: 0
+        turbineEfficiency: 0
+        inertia: 0
+        ballBearings: 0
+        boost: 0
+        blowoffValve: 0
+        blowoffType: 
+        boostControl: 
+        externalWastegate: 0
+        twinScroll: 0
+        whistlePitch: 0
+        driveRatio: 0
+        displacement: 0
+        bypassValve: 0
+        intercoolerEffectiveness: 0
+        chargeVolume: 0
+        sequentialSpeed: 0
+      ignitionModule:
+        timingCurve: 5
+        revLimit: 733.038285
+        limiterDuration: 0.5
+        sparksPerCycle: 1
+        plugs:
+        - angle: 0
+          enabled: 1
+        - angle: 4.7123889803850005
+          enabled: 1
+        - angle: 7.853981633975
+          enabled: 1
+        - angle: 9.424777960770001
+          enabled: 1
+        - angle: 10.995574287565
+          enabled: 1
+        - angle: 3.14159265359
+          enabled: 1
+        - angle: 6.28318530718
+          enabled: 1
+        - angle: 1.570796326795
+          enabled: 1
+      fuel:
+        molecularMass: 0.1
+        energyDensity: 48100000
+        density: 754.9999999999998
+        molecularAfr: 12.5
+        burningEfficiencyRandomness: 0.5
+        lowEfficiencyAttenuation: 0.6
+        maxBurningEfficiency: 0.85
+        maxTurbulenceEffect: 3
+        maxDilutionEffect: 10
+        turbulenceToFlameSpeedRatio: 6
+      combustionChamber:
+        crankcasePressure: 101325
+        meanPistonSpeedToTurbulence: 7
+    vehicle:
+      mass: 1597
+      dragCoefficient: 0.25
+      crossSectionArea: 3.344509440000001
+      diffRatio: 3.42
+      tireRadius: 0.254
+      rollingResistance: 2000
+    transmission:
+      gearRatios:
+      - 2.97
+      - 2.07
+      - 1.43
+      - 1
+      - 0.84
+      - 0.56
+      maxClutchTorque: 1355.817456
+    source:
+      script: 
+      engineNode: 
+      variantOf: 
+  impulseResponses:
+  - {fileID: 11400000, guid: 1a20f03387d6c4e00a320dd5f64feab4, type: 2}
+  - {fileID: 11400000, guid: 1a20f03387d6c4e00a320dd5f64feab4, type: 2}
+  tuning:
+    mixer:
+      convolution:
+        overridden: 0
+        value: 0
+      highFrequencyGain:
+        overridden: 0
+        value: 0
+      lowFrequencyNoise:
+        overridden: 0
+        value: 0
+      lowFrequencyNoiseCutoff:
+        overridden: 0
+        value: 0
+      highFrequencyNoise:
+        overridden: 0
+        value: 0
+    build:
+      simulationFrequency:
+        overridden: 0
+        value: 0
+      exhaustSystems: []
+      cylinderHeads: []
+  hasDesign: 1
+  design:
+    version: 1
+    name: "V8 454 ci Big-Block \xB7 '70s Muscle"
+    starterTorque: 271.1634912
+    starterSpeed: 200
+    redline: 5500
+    dynoMinSpeed: 1000
+    dynoMaxSpeed: 5500
+    dynoHoldStep: 100
+    simulationFrequency: 10000
+    highFrequencyGain: 0.01
+    noise: 1
+    jitter: 0.5
+    throttle:
+      governed: 0
+      gamma: 1.5
+      governorMinSpeed: 1000
+      governorMaxSpeed: 3600
+      governorMinVelocity: -2
+      governorMaxVelocity: 2
+      governorK_s: 1
+      governorK_d: 300
+      governorGamma: 0.1
+    layout: 1
+    cylinders: 8
+    bankAngle: 90
+    firingOrder: 0100000008000000060000000200000007000000030000000400000005000000i
+    firingAngles: []
+    banksMirrored: 0
+    splitPins: 0
+    flipBankDisplay: 0001y
+    displayDepth: 0.5
+    bore: 0.10795
+    stroke: 0.10160000000000001
+    rodLength: 0.15582900000000002
+    compressionHeight: 0.041656
+    deckClearance: 0.0006349999999999967
+    pistonMass: 0.88
+    wristPinPosition: 0
+    rodMass: 0.785
+    rodMomentOfInertia: 0.0015884918028487504
+    rodCenterOfMass: 0
+    crankMass: 34.01942775
+    flywheelMass: 26.30835746
+    crankMomentOfInertia: 0.4597368955372733
+    crankFrictionTorque: 13.558174560000001
+    cylinderSettings:
+    - blowby: 0.20000000000000004
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 0
+    - blowby: 0.6
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 0
+    - blowby: 0.6
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 0
+    - blowby: 0.4000000000000001
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 0
+    - blowby: 0.20000000000000004
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 1
+    - blowby: 0.20000000000000004
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 1
+    - blowby: 0.6
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 1
+    - blowby: 0.6
+      soundAttenuation: 1
+      headerPrimaryLength: 0
+      intake: 0
+      exhaust: 1
+    heads:
+    - chamberVolume: 0.00011800000000000002
+      intakeRunnerVolume: 0.00018900000000000004
+      intakeRunnerCrossSectionArea: 0.00378
+      exhaustRunnerVolume: 0.00030000000000000003
+      exhaustRunnerCrossSectionArea: 0.0014643846145918652
+      intakeFlow:
+      - lift: 0
+        flow: 0
+      - lift: 50
+        flow: 25.000000000000004
+      - lift: 100
+        flow: 75
+      - lift: 150
+        flow: 100.00000000000001
+      - lift: 200
+        flow: 130
+      - lift: 250.00000000000003
+        flow: 180
+      - lift: 300
+        flow: 190.00000000000003
+      - lift: 350
+        flow: 220
+      - lift: 400
+        flow: 240
+      - lift: 450
+        flow: 250
+      - lift: 500.00000000000006
+        flow: 260
+      - lift: 550
+        flow: 260
+      - lift: 600
+        flow: 260
+      - lift: 650
+        flow: 255
+      - lift: 700
+        flow: 250
+      exhaustFlow:
+      - lift: 0
+        flow: 0
+      - lift: 50
+        flow: 25.000000000000004
+      - lift: 100
+        flow: 50.00000000000001
+      - lift: 150
+        flow: 75
+      - lift: 200
+        flow: 100.00000000000001
+      - lift: 250.00000000000003
+        flow: 125
+      - lift: 300
+        flow: 160
+      - lift: 350
+        flow: 175
+      - lift: 400
+        flow: 180
+      - lift: 450
+        flow: 190.00000000000003
+      - lift: 500.00000000000006
+        flow: 200.00000000000003
+      - lift: 550
+        flow: 205
+      - lift: 600
+        flow: 210.00000000000003
+      - lift: 650
+        flow: 210.00000000000003
+      - lift: 700
+        flow: 210.00000000000003
+      flowSmoothing: 50
+    camshaft:
+      intakeLobe:
+        durationAt50Thou: 232.00000000000003
+        gamma: 0.75
+        lift: 0.0146812
+        steps: 100
+      exhaustLobe:
+        durationAt50Thou: 232.00000000000003
+        gamma: 0.75
+        lift: 0.0146812
+        steps: 100
+      intakeLobeCenter: 109.99999999999996
+      exhaustLobeCenter: 110.00000000000001
+      advance: 4
+      baseRadius: 0.025400000000000002
+      variableLift:
+        enabled: 0
+        intakeLobe:
+          durationAt50Thou: 220
+          gamma: 1
+          lift: 0.01016
+          steps: 100
+        exhaustLobe:
+          durationAt50Thou: 220
+          gamma: 1
+          lift: 0.01016
+          steps: 100
+        intakeLobeCenter: 114
+        exhaustLobeCenter: 114
+        advance: 0
+        baseRadius: 0.01905
+        minRpm: 5800
+        minSpeed: 10
+        manifoldVacuum: 84393.05666666664
+        minThrottlePosition: 0.3
+    intakes:
+    - plenumVolume: 0.0020000000000000005
+      plenumCrossSectionArea: 0.01
+      intakeFlowRate: 950
+      idleFlowRate: 0.006999999999999999
+      runnerFlowRate: 300
+      runnerLength: 0.1524
+      idleThrottlePlatePosition: 0.995
+      velocityDecay: 1
+      molecularAfr: 12.5
+      atmospherePressure: 101325
+      atmosphereTemperature: 298.15
+    exhausts:
+    - length: 6.167266379343297
+      collectorCrossSectionArea: 0.008107319665560499
+      outletFlowRate: 550
+      primaryFlowRate: 90
+      primaryTubeLength: 0.254
+      velocityDecay: 1
+      audioVolume: 1
+      impulseResponse: es/sound-library/smooth/smooth_39.wav
+      impulseResponseVolume: 0.001
+    - length: 6.167266379343297
+      collectorCrossSectionArea: 0.008107319665560499
+      outletFlowRate: 550
+      primaryFlowRate: 90
+      primaryTubeLength: 0.254
+      velocityDecay: 1
+      audioVolume: 0.1
+      impulseResponse: es/sound-library/smooth/smooth_39.wav
+      impulseResponseVolume: 0.001
+    forcedInduction:
+      type: 0
+      arrangement: 0
+      turbineAr: 0.64
+      turbineEfficiency: 0.7
+      inertia: 0.00003
+      ballBearings: 0
+      boost: 100000
+      boostControl: 1
+      externalWastegate: 0
+      twinScroll: 0
+      sequentialSpeed: 4000
+      driveRatio: 2
+      displacement: 0.0019000000000000004
+      bypassValve: 1
+      compressorDiameter: 0.06
+      compressorFlow: 0.3
+      compressorEfficiency: 0.75
+      maxSpeed: 0
+      blowoffValve: 1
+      blowoffType: 0
+      intercoolerEffectiveness: 0.7
+      chargeVolume: 0.006000000000000002
+      whistlePitch: 1
+    ignition:
+      timingCurve:
+      - speed: 0
+        advance: 12
+      - speed: 1000
+        advance: 12
+      - speed: 2000
+        advance: 20
+      - speed: 3000
+        advance: 30
+      - speed: 4000
+        advance: 38
+      - speed: 4999.999999999999
+        advance: 38
+      - speed: 6000
+        advance: 38
+      timingSmoothing: 1000
+      revLimit: 7000
+      limiterDuration: 0.5
+    fuel:
+      molecularMass: 0.1
+      energyDensity: 48100000
+      density: 754.9999999999998
+      molecularAfr: 12.5
+      maxBurningEfficiency: 0.85
+      burningEfficiencyRandomness: 0.5
+      lowEfficiencyAttenuation: 0.6
+      maxTurbulenceEffect: 3
+      maxDilutionEffect: 10
+      turbulenceToFlameSpeedRatio: []
+      turbulenceSmoothing: 5
+    vehicle:
+      mass: 1597
+      dragCoefficient: 0.25
+      crossSectionArea: 3.344509440000001
+      diffRatio: 3.42
+      tireRadius: 0.254
+      rollingResistance: 2000
+    transmission:
+      gearRatios:
+      - 2.97
+      - 2.07
+      - 1.43
+      - 1
+      - 0.84
+      - 0.56
+      maxClutchTorque: 1355.817456
+  revision: 6

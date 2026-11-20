@@ -1,0 +1,3 @@
+# Golden runs: binary, never diffed or normalised.
+*.estrace binary
+*.wav binary

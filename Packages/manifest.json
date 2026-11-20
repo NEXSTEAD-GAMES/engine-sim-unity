@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.test-framework": "1.8.0"
+  },
+  "testables": [
+    "com.nexstead.enginebench"
+  ]
+}

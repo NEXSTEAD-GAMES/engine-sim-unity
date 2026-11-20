@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compiles the package's pure C# runtime (everything under Runtime/ but its Unity layer,
+    Runtime/Unity) with no Unity references: any Unity API use fails the build. C# 9, as Unity
+    compiles it. See README.md (Offline tools).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion><AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Package>$(MSBuildThisFileDirectory)../../Packages/com.nexstead.enginebench/</Package>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(Package)Runtime/**/*.cs" Exclude="$(Package)Runtime/Unity/**" />
+  </ItemGroup>
+</Project>

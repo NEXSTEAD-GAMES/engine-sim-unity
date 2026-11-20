@@ -1,0 +1,19 @@
+{
+    "name": "Nexstead.EngineBench.Samples.EngineDemo",
+    "rootNamespace": "Nexstead.EngineBench.Samples",
+    "references": [
+        "Nexstead.EngineBench",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

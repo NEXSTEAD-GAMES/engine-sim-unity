@@ -1,0 +1,9 @@
+<Project>
+  <!-- Build outputs of the offline tools go to Tools~/bin and Tools~/obj (git-ignored). -->
+  <PropertyGroup>
+    <!-- Built for .NET 8, run on whatever newer .NET is installed. -->
+    <RollForward>Major</RollForward>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)bin/$(MSBuildProjectName)/</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj/$(MSBuildProjectName)/</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,36 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/*.csproj
+/*.sln
+/*.slnx
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vscode/
+.idea/
+.DS_Store
+
+# Takes the Bench renders into the dev project
+/Assets/EngineBench/
+/Assets/EngineBench.meta
+
+# Samples imported into the dev project to work on them (the package copy is Samples~)
+/Assets/Samples/
+/Assets/Samples.meta
+
+# The private reference suite (the C++ reference, the parity tests and the preset tools) checks out here
+/Assets/Reference/
+/Assets/Reference.meta

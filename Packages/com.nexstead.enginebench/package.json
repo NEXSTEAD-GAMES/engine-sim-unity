@@ -1,0 +1,33 @@
+{
+  "name": "com.nexstead.enginebench",
+  "version": "1.0.0",
+  "displayName": "Nx Engine Bench",
+  "description": "A physical engine and exhaust sound simulator for the Unity Editor, based on engine-sim by Ange Yaghi. Make engines from 27 presets, tune their sound, and listen to them live in the Editor. The simulation is a C# port, bit-identical to the original, and runs in real time with Burst. A render API and Bench extensions let other tools build on it. Editor only: nothing goes into player builds.",
+  "unity": "6000.6",
+  "unityRelease": "7f1",
+  "license": "MIT",
+  "author": {
+    "name": "Nexstead"
+  },
+  "keywords": [
+    "audio",
+    "engine sound",
+    "engine simulation",
+    "vehicle",
+    "car",
+    "exhaust",
+    "burst"
+  ],
+  "dependencies": {
+    "com.unity.burst": "1.8.18",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Engine Demo",
+      "description": "A scene that plays the small-block V8 preset in Play Mode through an EngineAudioSource: it starts on its own, and Space gives full throttle. Window > Nx Engine Bench is where engines are picked, designed and tuned.",
+      "path": "Samples~/Engine Demo"
+    }
+  ]
+}
