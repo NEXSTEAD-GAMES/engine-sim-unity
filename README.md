@@ -6,6 +6,41 @@ Make engines from presets, tune their sound, listen to them live in the
 Editor, and export a free rev, a start and a stop as WAV files. A render API
 and Bench extensions let other tools build on it.
 
+## In the Editor
+
+Everything happens in one Editor window, **Window > Nx Engine Bench**. Each
+shot below is a different engine running live in it. The engine view,
+tachometer, dyno figures, exhaust signal, output spectrum and dyno curves all
+come from the simulation as it plays. It ships 27 presets, from a single to a
+V12: a single, V-twins, an inline twin, inline fours, fives and sixes, boxer
+fours, V6s, V8s, a V10 and V12s.
+
+### Design
+
+![The Bench's Design tab: a V12 F1 engine part-way through a dyno pull](docs/images/bench-design.png)
+
+A 3.0 L V12 F1 engine part-way through a dyno pull, at 15,500 rpm. Design
+builds the engine from its layout, firing, bottom end, cams, head and intake,
+exhausts, forced induction and limits, and flags a design real engines
+wouldn't survive (here, the piston speed at the redline).
+
+### Sound
+
+![The Bench's Sound tab: a 125 cc kart twin held on the dyno at 9,000 rpm](docs/images/bench-sound.png)
+
+A 125 cc 360° kart twin held on the dyno at 9,000 rpm. Sound tunes the mix,
+which plays at once: a ticked value replaces the engine's own, and this preset
+carries its own filter amount and noise.
+
+### Export
+
+![The Bench's Export tab: a boxer four after exporting its WAV clips](docs/images/bench-export.png)
+
+A 2.5 L boxer four after an export. One click renders the free rev, the start
+and the stop, and writes them as WAV files.
+
+## Install
+
 **Using it?** Install the package and read its documentation:
 [Packages/com.nexstead.enginebench](Packages/com.nexstead.enginebench/README.md).
 
